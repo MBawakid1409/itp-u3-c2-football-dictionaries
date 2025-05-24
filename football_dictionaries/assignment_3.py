@@ -15,5 +15,3 @@ def players_by_country_and_position(squads_list):
         country_dict[country][position].append(player)
     
     return country_dict
-
-players_by_country_and_position(SQUADS_DATA_DICT)
