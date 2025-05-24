@@ -7,5 +7,3 @@ def players_by_position(squads_list):
             positions_dict[position] = []
         positions_dict[position].append(player)
     return positions_dict
-
-players_by_position(SQUADS_DATA_DICT)
