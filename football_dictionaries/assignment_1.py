@@ -35,5 +35,3 @@ def players_as_dictionaries(squads_list):
 #         'year'
 #     ]
 #     return [dict(zip(keys, player)) for player in squads_list]
-
-SQUADS_DATA_DICT = players_as_dictionaries(SQUADS_DATA)
